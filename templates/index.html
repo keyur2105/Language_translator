@@ -115,7 +115,7 @@
     <div class="container">
         <h2>🌍 Language Translator</h2>
         <form method="get">
-            <textarea name="text" placeholder="Enter text to translate" required></textarea>
+            <textarea name="text" placeholder="Enter text to translate" required>{{ text }}</textarea>
             
             <select name="language" required>
                 <option value="" disabled selected>Choose Language</option>
@@ -225,7 +225,7 @@
                 <option value="yi">Yiddish</option>
                 <option value="yo">Yoruba</option>
                 <option value="zu">Zulu</option>
-            </select>
+            </select>   
             
             <button type="submit">Translate</button>
         </form>
