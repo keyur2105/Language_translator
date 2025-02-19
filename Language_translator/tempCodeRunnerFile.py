@@ -1,1 +1,1 @@
-translate_text
+from googletrans import Translator

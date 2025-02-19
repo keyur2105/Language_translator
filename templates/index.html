@@ -225,15 +225,13 @@
                 <option value="yi">Yiddish</option>
                 <option value="yo">Yoruba</option>
                 <option value="zu">Zulu</option>
-            </select>   
-            
+            </select>
             <button type="submit">Translate</button>
         </form>
 
         {% if translate_text %}
         <div class="result">
-            <textarea name="translate" id="">{{translate_text}}</textarea>
-            <!-- <p>{{ translate_text }}</p> -->
+            <textarea name="translate">{{translate_text}}</textarea>
         </div>
         {% endif %}
     </div>
