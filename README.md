@@ -14,7 +14,7 @@ This Django-based application provides text translation functionality using Goog
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/keyur/Language_translator.git
+   git clone https://github.com/keyur2105/Language_translator.git
 
 ## Dependencies
 
