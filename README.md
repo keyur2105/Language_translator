@@ -1,34 +1,30 @@
-# Diabetes Check Application
+# Language Translator Application
 
 ## Overview
 
-This Django application predicts the likelihood of diabetes based on user input.
+This Django-based application provides text translation functionality using Google Translate API. Users can enter text and select a target language to receive the translated output.
 
 ## Features
 
-- User-friendly form for inputting health data.
-- Predictive analysis using a pre-trained model.
+- Translate text into multiple languages using Google Translate API.
+- Simple and user-friendly web interface.
+- Supports multiple language inputs and outputs.
 
 ## Setup Instructions
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/diabetes_check_application.git
-   cd diabetes_check_application
+   git clone https://github.com/keyur/Language_translator.git
 
-File Structure
---> Diabetes_Check_Application/: Main project directory.
---> your_app_name/: Contains views, models, and templates.
---> static/model/: Directory for pipe.pickle and df.pickle.
+## Dependencies
 
-Dependencies : 
---> Django
---> pandas
---> scikit-learn
+- Django
+- googletrans==4.0.0-rc1
 
-Notes : 
---> Ensure pipe.pickle and df.pickle are in the static/model/ directory.
---> Customize input.html in the templates directory as needed.
+## Notes
 
-👉 View the live project here :  https://diabetes-check-application.onrender.com
+- Ensure your internet connection is active as Google Translate API requires connectivity.
+- Customize index.html in the templates directory to modify the UI.
+- If googletrans does not work, consider using an alternative API such as DeepL or TextBlob.
 
+👉 View the live project : https://language-translator-c3fu.onrender.com
