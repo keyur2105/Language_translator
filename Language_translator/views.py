@@ -13,6 +13,6 @@ def translator(request):
         
         translate = Translator()
         translate_text = translate.translate(text,dest=language).text
-        return render(request, "index.html", {'translate_text':translate_text, 'text':text,})
+        return render(request, "index.html", {'translate_text':translate_text, 'text':text})
     
     return render(request, "index.html")
